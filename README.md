@@ -1,8 +1,16 @@
 # Existency
 
-A 2D reallistic open-world game inspired by [Terraria](https://store.steampowered.com/app/105600/Terraria/), [Noita](https://store.steampowered.com/app/881100/Noita/) and [Rain World](https://store.steampowered.com/app/312520/Rain_World/).
+A 2D reallistic open-world sandbox game inspired with a procedurally generated world with biomes, cities and many factions.
 
-This game will have a procurally generated world with biomes, cities and many factions.
+## Inspirations
+
+This game was inspired by:
+
+- [Terraria](https://store.steampowered.com/app/105600/Terraria/)
+- [Noita](https://store.steampowered.com/app/881100/Noita/)
+- [Rain World](https://store.steampowered.com/app/312520/Rain_World/)
+- [Intruder Combat Training](https://www.youtube.com/watch?v=7r8vjmeqRlU&pp=ygUgaW50cnVkZXIgY29tYmF0IHRyYWluaW5nIHRyYWlsZXI%3D)
+- [The Last Stand (series)](https://www.youtube.com/watch?v=T7j7jU5qZGw&pp=ygUYdGhlIGxhc3Qgc3RhbmQgMiB0cmFpbGVy)
 
 ## Planned Features
 
