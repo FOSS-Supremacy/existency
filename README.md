@@ -12,6 +12,10 @@ This game was inspired by:
 - [Intruder Combat Training](https://www.youtube.com/watch?v=7r8vjmeqRlU&pp=ygUgaW50cnVkZXIgY29tYmF0IHRyYWluaW5nIHRyYWlsZXI%3D)
 - [The Last Stand (series)](https://www.youtube.com/watch?v=T7j7jU5qZGw&pp=ygUYdGhlIGxhc3Qgc3RhbmQgMiB0cmFpbGVy)
 
+## Motivation
+
+There's no good open-source reimplementation of the games above.
+
 ## Planned Features
 
 - Modern technology level
