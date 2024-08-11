@@ -1,6 +1,6 @@
 # Existency
 
-A 2D reallistic open-world sandbox game inspired with a procedurally generated world with biomes, cities and many factions.
+A 2D reallistic open-world sandbox game with a procedurally generated world with biomes, cities and many factions.
 
 ## Inspirations
 
