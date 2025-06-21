@@ -1,0 +1,115 @@
+[gd_scene load_steps=9 format=3 uid="uid://4dx0jy1dxg68"]
+
+[ext_resource type="Script" path="res://scripts/world.gd" id="1_1ar6f"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_04r8i"]
+size = Vector2(937, 17)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_02xgt"]
+size = Vector2(20, 170)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_g6amv"]
+size = Vector2(20, 173)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_52qtv"]
+size = Vector2(164, 20)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nn7j1"]
+size = Vector2(20, 217)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dffmg"]
+size = Vector2(211, 15)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pd0b3"]
+size = Vector2(20, 61)
+
+[node name="world" type="Node2D"]
+script = ExtResource("1_1ar6f")
+
+[node name="sky" type="ColorRect" parent="."]
+offset_left = -660.0
+offset_top = -400.0
+offset_right = 667.0
+offset_bottom = 4.0
+color = Color(0.303233, 0.303233, 0.303233, 1)
+
+[node name="sun" type="DirectionalLight2D" parent="."]
+shadow_enabled = true
+
+[node name="moon" type="DirectionalLight2D" parent="."]
+visible = false
+color = Color(0, 0.280328, 0.280328, 1)
+shadow_enabled = true
+
+[node name="ground2" type="ColorRect" parent="."]
+offset_left = -660.0
+offset_top = 23.0
+offset_right = 669.0
+offset_bottom = 255.0
+color = Color(0.0475762, 0.0202396, 0, 1)
+
+[node name="ground" type="StaticBody2D" parent="."]
+
+[node name="Polygon2D" type="Polygon2D" parent="ground"]
+color = Color(0.196078, 0.196078, 0.196078, 1)
+antialiased = true
+polygon = PackedVector2Array(-658, -218, -660, 19, -508, 19, -509, 197, -254, 195, -256, 20, 664, 20, 663, -209, 643, -207, 642, -2, -270, 0, -275, 177, -491, 179, -492, -1, -642, -1, -642, -220)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ground"]
+position = Vector2(196, 10)
+shape = SubResource("RectangleShape2D_04r8i")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="ground"]
+position = Vector2(-263, 110)
+shape = SubResource("RectangleShape2D_02xgt")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="ground"]
+position = Vector2(-500, 110)
+shape = SubResource("RectangleShape2D_g6amv")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="ground"]
+position = Vector2(-578, 10)
+shape = SubResource("RectangleShape2D_52qtv")
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="ground"]
+position = Vector2(-650, -111)
+shape = SubResource("RectangleShape2D_nn7j1")
+
+[node name="CollisionShape2D6" type="CollisionShape2D" parent="ground"]
+position = Vector2(660, -111)
+shape = SubResource("RectangleShape2D_nn7j1")
+
+[node name="CollisionShape2D7" type="CollisionShape2D" parent="ground"]
+position = Vector2(-383, 188)
+shape = SubResource("RectangleShape2D_dffmg")
+
+[node name="wall1" type="StaticBody2D" parent="."]
+
+[node name="Polygon2D" type="Polygon2D" parent="wall1"]
+position = Vector2(0, 6)
+color = Color(0.197937, 0.197937, 0.197937, 1)
+antialiased = true
+polygon = PackedVector2Array(-170, -4, -169, -60, -149, -63, -149, -4)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="wall1"]
+position = Vector2(-159, -28)
+shape = SubResource("RectangleShape2D_pd0b3")
+
+[node name="wall2" type="StaticBody2D" parent="."]
+
+[node name="Polygon2D" type="Polygon2D" parent="wall2"]
+position = Vector2(436, 6)
+color = Color(0.196078, 0.196078, 0.196078, 1)
+antialiased = true
+polygon = PackedVector2Array(-170, -4, -169, -60, -149, -63, -149, -4)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="wall2"]
+position = Vector2(277, -28)
+shape = SubResource("RectangleShape2D_pd0b3")
+
+[node name="pool" type="ColorRect" parent="."]
+offset_left = -489.0
+offset_top = 3.0
+offset_right = -274.0
+offset_bottom = 182.0
+color = Color(0.0728426, 0.0728426, 0.0728426, 1)

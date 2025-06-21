@@ -1,0 +1,283 @@
+[gd_scene load_steps=26 format=3 uid="uid://b7gpdwnjhgu40"]
+
+[ext_resource type="Texture2D" uid="uid://cg72kee4gtt4t" path="res://assets/weapons/ak_47_gun_svg.svg" id="1_56nko"]
+[ext_resource type="Script" path="res://scripts/player.gd" id="1_nt1lq"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_m8d3q"]
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_3x4ku"]
+polygon = PackedVector2Array(-9, -5, -5, -10, 2, -10, 9, -5, 10, 2, 7, 9, 0, 10, -8, 7, -10, -1)
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_dok3a"]
+height = 47.0
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_ujv86"]
+polygon = PackedVector2Array(-10.1174, 21.3222, -9.32432, -16.5244, -4.1978, -21.5958, 1.50116, -23.7223, 6.00009, -21.5406, 10.2806, -15.2417, 9.48755, 22.605)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8bslq"]
+size = Vector2(7, 23)
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_btyja"]
+polygon = PackedVector2Array(-3.86777, -11.5343, -3.66529, 14.4071, 3.04081, 14.2392, 2.83834, -11.7023)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_o173d"]
+size = Vector2(8, 20)
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_6pqwm"]
+polygon = PackedVector2Array(-3.49343, -10.0397, 3.19349, -10.5736, 3.86804, 9.11253, 0.337273, 9.84309, -3.74606, 9.27184)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7eqkk"]
+size = Vector2(7, 29)
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_4e4b4"]
+polygon = PackedVector2Array(-2.85448, -14.9617, -2.96829, 15.2705, 3.95335, 13.0143, 3.52749, -14.4415)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dq1ey"]
+size = Vector2(8, 20)
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_cb762"]
+polygon = PackedVector2Array(4.46188, -9.43884, -4.08579, -10.407, -3.79274, 8.69569, -1.48929, 12.1154, 3.34266, 9.7379)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_l3x51"]
+size = Vector2(10, 27)
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_myx1u"]
+polygon = PackedVector2Array(-4.42409, -13.5158, -4.19392, 9.67787, 4.28492, 12.5256, 4.62749, -13.7781)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_knwe6"]
+size = Vector2(10, 33.5275)
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_mg053"]
+polygon = PackedVector2Array(-5.92028, -16.4549, 4.33702, -17.3424, 5.05224, 12.3306, 0.637205, 16.5148, -4.37603, 12.6589)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7hdds"]
+size = Vector2(9, 28)
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_saegw"]
+polygon = PackedVector2Array(-4.4641, -13.1557, -4.29646, 9.51527, 3.80804, 13.9104, 4.75522, -13.0915)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gqpjf"]
+size = Vector2(9, 29)
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_hv1ks"]
+polygon = PackedVector2Array(-3.39683, -14.3688, 3.88229, -14.4889, 4.69093, 9.53914, 2.43091, 14.11, -1.69162, 14.0406, -4.07176, 11.3323)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_h5i30"]
+size = Vector2(850.111, 260)
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_rceq8"]
+polygon = PackedVector2Array(-402.833, 19.7778, -413.944, 19.7778, -413.944, -2.44446, -413.944, -80.2222, -269.5, -91.3334, -258.389, -80.2222, -180.611, -91.3334, -158.389, -113.556, 41.6111, -113.556, 41.6111, -124.667, 97.1667, -124.667, 108.278, -113.556, 208.278, -113.556, 219.389, -102.444, 286.056, -102.444, 308.278, -80.2222, 374.944, -80.2222, 386.056, -102.444, 386.056, -113.556, 408.278, -113.556, 408.278, -80.2222, 419.389, -69.1111, 419.389, -58, 408.278, -58, 408.278, -46.8889, 208.278, -58, 63.8333, -35.7778, 63.8333, -46.8889, 19.3889, -46.8889, 19.3889, -24.6667, 30.5, 8.66663, 52.7223, 41.9999, 97.1667, 75.3333, 63.8333, 130.889, 30.5, 108.667, -2.83331, 75.3333, -25.0555, 41.9999, -36.1666, 8.66663, -47.2777, -35.7778, -58.3889, -13.5556, -69.5, -24.6667, -80.6111, -13.5556, -113.944, -13.5556, -125.056, -13.5556, -147.278, 8.66663, -158.389, 53.1111, -191.722, 53.1111, -202.833, 30.8889, -169.5, -24.6667, -180.611, -46.8889)
+
+[sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_pw6q4"]
+
+[node name="player" type="CharacterBody2D"]
+position = Vector2(0, -55)
+script = ExtResource("1_nt1lq")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(1.25, 1.25)
+
+[node name="head_col" type="CollisionShape2D" parent="."]
+position = Vector2(6, -46)
+shape = SubResource("CircleShape2D_m8d3q")
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="head_col"]
+occluder = SubResource("OccluderPolygon2D_3x4ku")
+
+[node name="head" type="Polygon2D" parent="head_col"]
+position = Vector2(-6, 46)
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-2, -50, -3, -48, -3, -45, -3, -43, -1, -40, 1, -38, 6, -36, 12, -38, 15, -42, 16, -48, 13, -52, 9, -55, 5, -55, 1, -54)
+
+[node name="body_col" type="CollisionShape2D" parent="."]
+position = Vector2(-2, -13)
+rotation = 0.191986
+scale = Vector2(1, 1)
+shape = SubResource("CapsuleShape2D_dok3a")
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="body_col"]
+scale = Vector2(1, 1)
+occluder = SubResource("OccluderPolygon2D_ujv86")
+
+[node name="body" type="Polygon2D" parent="body_col"]
+position = Vector2(4.44377, 12.3795)
+rotation = -0.191986
+scale = Vector2(1, 1)
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-6, 9, 2, 11, 11.3769, -25.6553, 9, -33, 4, -36, -0.0431061, -35.8448, -3, -35, -7.5372, -30.39, -16, 6)
+
+[node name="upper_right_arm" type="CollisionShape2D" parent="."]
+position = Vector2(15, -26)
+rotation = -1.0821
+shape = SubResource("RectangleShape2D_8bslq")
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="upper_right_arm"]
+occluder = SubResource("OccluderPolygon2D_btyja")
+
+[node name="upper_right_arm2" type="Polygon2D" parent="upper_right_arm"]
+position = Vector2(-18.8809, 12.8262)
+rotation = 0.471239
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(20, -9, 14, -5, 3, -27, 8, -32)
+
+[node name="lower_right_arm" type="CollisionShape2D" parent="."]
+position = Vector2(34, -23)
+rotation = -1.95477
+shape = SubResource("RectangleShape2D_o173d")
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="lower_right_arm"]
+occluder = SubResource("OccluderPolygon2D_6pqwm")
+
+[node name="lower_right_arm2" type="Polygon2D" parent="lower_right_arm"]
+position = Vector2(-14.9138, -20.4592)
+rotation = 1.09956
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(17, -12, 14, -5, 29, 2, 32, 2, 34, 0, 34, -3, 31, -5)
+
+[node name="upper_left_arm" type="CollisionShape2D" parent="."]
+position = Vector2(6, -23)
+rotation = -0.977384
+scale = Vector2(1, 1)
+shape = SubResource("RectangleShape2D_7eqkk")
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="upper_left_arm"]
+scale = Vector2(1, 1)
+occluder = SubResource("OccluderPolygon2D_4e4b4")
+
+[node name="upper_left_arm2" type="Polygon2D" parent="upper_left_arm"]
+position = Vector2(28.1678, 0.750362)
+rotation = -1.0472
+scale = Vector2(1, 1)
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-23, -15, -28, -20, -2, -35, 1, -29)
+
+[node name="lower_left_arm" type="CollisionShape2D" parent="."]
+position = Vector2(22, -20)
+rotation = -2.30383
+shape = SubResource("RectangleShape2D_dq1ey")
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="lower_left_arm"]
+occluder = SubResource("OccluderPolygon2D_cb762")
+
+[node name="lower_left_arm2" type="Polygon2D" parent="lower_left_arm"]
+position = Vector2(27.3582, 2.9206)
+rotation = -0.226893
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-27, -20, -20, -18, -24, 0, -26, 2, -29, 3, -31, 1, -32, -1)
+
+[node name="upper_left_leg" type="CollisionShape2D" parent="."]
+position = Vector2(-12.5, 15)
+rotation = 0.139626
+scale = Vector2(1, 1)
+shape = SubResource("RectangleShape2D_l3x51")
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="upper_left_leg"]
+scale = Vector2(1, 1)
+occluder = SubResource("OccluderPolygon2D_myx1u")
+
+[node name="upper_left_leg2" type="Polygon2D" parent="upper_left_leg"]
+position = Vector2(10.2908, -16.5937)
+rotation = -0.139626
+scale = Vector2(1, 1)
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-18, 26, -10, 28, -6, 3, -15, 1)
+
+[node name="lower_left_leg" type="CollisionShape2D" parent="."]
+position = Vector2(-23.2933, 40.9523)
+rotation = 0.593412
+shape = SubResource("RectangleShape2D_knwe6")
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="lower_left_leg"]
+occluder = SubResource("OccluderPolygon2D_mg053")
+
+[node name="lower_left_leg2" type="Polygon2D" parent="lower_left_leg"]
+position = Vector2(-3.5892, -46.9765)
+rotation = -0.593412
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-18, 24, -10, 29, -25, 53, -28, 55, -33, 55, -34, 51, -34, 48)
+
+[node name="upper_right_leg" type="CollisionShape2D" parent="."]
+position = Vector2(9, 17)
+rotation = -0.715585
+shape = SubResource("RectangleShape2D_7hdds")
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="upper_right_leg"]
+occluder = SubResource("OccluderPolygon2D_saegw")
+
+[node name="upper_right_leg2" type="Polygon2D" parent="upper_right_leg"]
+position = Vector2(4.36062, -18.7346)
+rotation = 0.715585
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(15, 30, 21, 25, 4, 4, -3, 10)
+
+[node name="lower_right_leg" type="CollisionShape2D" parent="."]
+position = Vector2(20, 41)
+rotation = -0.261799
+scale = Vector2(1, 1)
+shape = SubResource("RectangleShape2D_gqpjf")
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="lower_right_leg"]
+scale = Vector2(1, 1)
+occluder = SubResource("OccluderPolygon2D_hv1ks")
+
+[node name="lower_right_leg2" type="Polygon2D" parent="lower_right_leg"]
+position = Vector2(-8.70694, -44.7793)
+rotation = 0.261799
+scale = Vector2(1, 1)
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(13, 28, 21, 26, 27, 49, 26, 53, 23, 55, 19, 54, 18, 51)
+
+[node name="Skeleton2D" type="Skeleton2D" parent="."]
+visible = false
+
+[node name="body" type="Bone2D" parent="Skeleton2D"]
+rest = Transform2D(1, 0, 0, 1, 0, 0)
+
+[node name="head" type="Bone2D" parent="Skeleton2D/body"]
+rest = Transform2D(1, 0, 0, 1, 0, 0)
+
+[node name="upper_left_arm" type="Bone2D" parent="Skeleton2D/body"]
+rest = Transform2D(1, 0, 0, 1, 0, 0)
+
+[node name="lower_left_arm" type="Bone2D" parent="Skeleton2D/body/upper_left_arm"]
+rest = Transform2D(1, 0, 0, 1, 0, 0)
+
+[node name="upper_right_arm" type="Bone2D" parent="Skeleton2D/body"]
+rest = Transform2D(1, 0, 0, 1, 0, 0)
+
+[node name="lower_right_arm" type="Bone2D" parent="Skeleton2D/body/upper_right_arm"]
+rest = Transform2D(1, 0, 0, 1, 0, 0)
+
+[node name="upper_left_leg" type="Bone2D" parent="Skeleton2D/body"]
+rest = Transform2D(1, 0, 0, 1, 0, 0)
+
+[node name="lower_left_leg" type="Bone2D" parent="Skeleton2D/body/upper_left_leg"]
+rest = Transform2D(1, 0, 0, 1, 0, 0)
+
+[node name="upper_right_leg" type="Bone2D" parent="Skeleton2D/body"]
+rest = Transform2D(1, 0, 0, 1, 0, 0)
+
+[node name="lower_right_leg" type="Bone2D" parent="Skeleton2D/body/upper_right_leg"]
+rest = Transform2D(1, 0, 0, 1, 0, 0)
+
+[node name="weapon_col" type="CollisionShape2D" parent="."]
+position = Vector2(36.255, -23.78)
+scale = Vector2(0.09, 0.09)
+shape = SubResource("RectangleShape2D_h5i30")
+
+[node name="ak47_shadow" type="LightOccluder2D" parent="weapon_col"]
+occluder = SubResource("OccluderPolygon2D_rceq8")
+
+[node name="weapon" type="Sprite2D" parent="weapon_col"]
+position = Vector2(-13.9444, -58)
+scale = Vector2(1, 1)
+texture = ExtResource("1_56nko")
+
+[node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="."]
+replication_config = SubResource("SceneReplicationConfig_pw6q4")
+
+[node name="bullet_explosion" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(74, -29.5)
+
+[node name="weapon_flashlight" type="PointLight2D" parent="."]
+position = Vector2(49, -26)

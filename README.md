@@ -11,6 +11,7 @@ This game was inspired by:
 - [Rain World](https://store.steampowered.com/app/312520/Rain_World/)
 - [Intruder Combat Training](https://www.youtube.com/watch?v=7r8vjmeqRlU&pp=ygUgaW50cnVkZXIgY29tYmF0IHRyYWluaW5nIHRyYWlsZXI%3D)
 - [The Last Stand (series)](https://www.youtube.com/watch?v=T7j7jU5qZGw&pp=ygUYdGhlIGxhc3Qgc3RhbmQgMiB0cmFpbGVy)
+- [Dwarf Fortress](https://www.bay12games.com/dwarves/)
 
 ## Planned Features
 
@@ -56,7 +57,7 @@ git clone https://github.com/FOSS-Supremacy/crawling-agony
 
 ## How To Contribute
 
-- Give a start to this repository, it will increase our chances to receive contributions.
+- Give a star to this repository, it will increase our chances to receive contributions.
 - Download the [Godot Engine](https://godotengine.org/) 4.x version (normal variant, not C#)
 - Verify the open issues and select some item to work on
 - Once ready, send a pull request (if you are adding commits on the PR branch, mark it as draft status)
